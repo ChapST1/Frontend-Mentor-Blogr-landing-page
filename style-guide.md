@@ -46,4 +46,4 @@ Background gradient - body:
 - Weights: 300, 600
 
 - Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
-- Weights: 400, 500, 700
+- Weights: 400, 500, 700.

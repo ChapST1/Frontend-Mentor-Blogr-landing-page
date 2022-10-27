@@ -252,7 +252,6 @@ body {
     justify-content: space-around;
 }
 
-.article__description {}
 
 .article__title {
     text-align: left;
@@ -305,7 +304,6 @@ body {
     z-index: -1;
 }
 
-.article__description--second {}
 
 .article__title--modify {
     color: #ffffff;
@@ -373,7 +371,6 @@ body {
 }
 
 @media (max-width: 1137px) {
-    body {}
 
     .header {
         padding: 0 50px;
@@ -396,7 +393,6 @@ body {
 
     }
 
-    .article-description {}
 
     .article__title {
         text-align: center;
