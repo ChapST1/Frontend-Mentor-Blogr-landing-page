@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding: 20px 0;
+      background-color: #212125;
+      font-size: 1.2rem;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <header class="header">
+      <img src="./images/logo.svg" alt="logo" class="nav__logo">
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a href="#" class="nav__a">
+              Product
+              <img src="./images/icon-arrow-light.svg" alt="" class="nav__arrow">
+            </a>
+            <!-- card -->
+            <aside class="nav__li-info">
+              <a href="#">Overview</a>
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integrations</a>
+            </aside>
+          </li>
+          <li class="nav__li">
+            <a href="#" class="nav__a">
+              Company
+              <img src="./images/icon-arrow-light.svg" alt="" class="nav__arrow">
+            </a>
+            <!-- card -->
+            <aside class="nav__li-info">
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">Blog</a>
+              <a href="#">Carrers</a>
+            </aside>
+          </li>
+          <li class="nav__li">
+            <a href="#" class="nav__a">
+              Connect
+              <img src="./images/icon-arrow-light.svg" alt="" class="nav__arrow">
+            </a>
+            <!-- card -->
+            <aside class="nav__li-info">
+              <a href="#">Contact</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Linkedin</a>
+            </aside>
+          </li>
+        </ul>
+        <aside class="login-container">
+          <button class="login__btn">Login</button>
+          <button class="login__btn">Sign Up</button>
+        </aside>
+      </nav>
+      <img src="./images/icon-hamburger.svg" alt="button Hamburguer" class="nav__hamburguer">
+    </header>
+    <!-- Description -->
+    <article class="description-container">
+      <h2 class="description__title">A modern publishing platform</h2>
+      <p class="description__paragraph">Grow your audiance and build your online brand</p>
+      <aside class="btn-container">
+        <button class="btn__start">Start for Free</button>
+        <button class="btn__start">Learn more</button>
+      </aside>
+    </article>
+
+    <!-- svg -->
+    <img src="./images/bg-pattern-intro-desktop.svg" alt="svg-circle" class="hero__circle">
+    <img src="./images/bg-pattern-intro-mobile.svg" alt="svg-circle" class="hero__circle-mobile">
+  </section>
+
+  <main class="main">
+    <h2 class="first__article-title">Designed for the future</h2>
+    <section class="first-article-container">
+      <article class="article__container">
+        <div class="article__description">
+          <h3 class="article__title">
+            Introducing an extensible editor
+          </h3>
+          <p class="article__paragraph">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The
+            editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos,
+            and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the
+            looks of a blog
+          </p>
+          <h3 class="article__title">
+            Robust content management
+          </h3>
+          <p class="article__paragraph">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+        <img src="./images/illustration-editor-desktop.svg" alt="svg" class="article__image">
+        </artic>
+    </section>
+
+    <section class="second-article-container">
+      <img src="./images/illustration-phones.svg" alt="" class="second__article-img">
+      <img src="./images/bg-pattern-circles.svg" alt="" class="second__article-svg">
+      <article class="article-description article__description--second">
+        <h3 class="article__title article__title--modify">
+          State of the Art Infrastructure
+        </h3>
+        <p class="article__paragraph article__paragraph--modify">
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+        </artic>
+    </section>
+    <!-- third article -->
+    <section class="third-article-container ">
+      <img src="./images/illustration-laptop-desktop.svg" alt="" class="second__article-img third__article-img">
+      <article class="article-description article-description--third">
+        <h3 class="article__title">
+          Free, open, simple
+        </h3>
+        <p class="article__paragraph ">
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+        <h3 class="article__title">
+          Powerful tooling
+        </h3>
+        <p class="article__paragraph article__paragraph--third ">
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+          breeze, but capable of producing even the most complicated sites.
+        </p>
+        </artic>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="links-container">
+      <a href="#" class="links__lin">
+        <img src="./images/logo.svg" alt="logo" class="links__logo">
+      </a>
+    </div>
+    <div class="links-container">
+      Product
+      <a href="#" class="links__link">Overview</a>
+      <a href="#" class="links__link">Pricing</a>
+      <a href="#" class="links__link">Martkeplace</a>
+      <a href="#" class="links__link">Features</a>
+      <a href="#" class="links__link">Integrations</a>
+    </div>
+    <div class="links-container">
+      Company
+      <a href="#" class="links__link">Overview</a>
+      <a href="#" class="links__link">Pricing</a>
+      <a href="#" class="links__link">Martkeplace</a>
+      <a href="#" class="links__link">Features</a>
+    </div>
+    <div class="links-container">
+      Connect
+      <a href="#" class="links__link">Overview</a>
+      <a href="#" class="links__link">Pricing</a>
+      <a href="#" class="links__link">Martkeplace</a>
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/chapst1" target="_blank">ChapST1</a>.
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
